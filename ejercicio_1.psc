@@ -1,24 +1,24 @@
-//Tomar dos valores y sumarlos
-Algoritmo suma
-  numero_1 <- 0
-  numero_2 <- 0
-  resultado <- 0
-  opc <- ""
-
-  Repetir 
-    Escribir "Algoritmo para sumar: "
-    Escribir "Dime el primer nÃºmero"
-    Leer numero_1
-
-    Escribir "Dime el segundo nÃºmero"
-    Leer numero_2
-
-    resultado <- numero_1 + numero_2
-    Escribir "El resultado es: ", resultado
-
-		
-		Escribir "Escribe (y) si quieres terminar (n) o si quieres continuar"
-		Leer opc
-  Hasta Que opc = "y"
-
+///Ejercicio 
+///Dadas dos variables numŽricas A y B, que el usuario debe teclear, se pide realizar un algoritmo que intercambie los valores de ambos
+///variables y muestre cu‡nto valen al final las dos variables (recuerde la asignaci—n
+Algoritmo cambio_variables
+	A <- 0
+	B <- 0
+	c <- 0
+	
+	Escribir "Dinos cual es el valor de A"
+	Leer A
+	
+	Escribir "Dinos cual es el valor de B"
+	Leer B
+	
+	Escribir "El valor de A es: ",A, " el valor de B es: ",B
+	Escribir  "Pero ahora se procede a cambiar las variables"
+	
+	C <- A
+	A <- B
+	B <- C
+	
+	Escribir "Por ende, gracias al algoritmo los nuevos valores son: para A = ",A , " para B = ",B
+	
 FinAlgoritmo

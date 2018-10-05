@@ -1,22 +1,25 @@
-// Ejercicio pedir 2 valores y mostrarlos cambiar las
-Algoritmo cambio_variables
-	A <- 0
-	B <- 0
-	c <- 0
+///Ejercicio
+///Algoritmo que lea dos nœmeros, calculando y escribiendo el valor de su suma, resta, producto y division 
+Algoritmo simples_calculos
+	numero_1 <- 0
+	numero_2 <- 0
 	
-	Escribir "Dinos cual es el valor de A"
-	Leer A
+	Escribir "Dime el primer nœmero"
+	Leer numero_1
 	
-	Escribir "Dinos cual es el valor de B"
-	Leer B
+	Escribir "Dime el segundo nœmero"
+	Leer numero_2
 	
-	Escribir "El valor de A es: ",A, " el valor de B es: ",B
-	Escribir  "Pero ahora se procede a cambiar las variables"
+	Esperar Tecla
 	
-	C <- A
-	A <- B
-	B <- C
+	Escribir "La Suma es: ", numero_1 + numero_2
+	Escribir "La Resta es: ", numero_1 - numero_2
+	Escribir "La Multiplicaci—n es: ", numero_1 * numero_2
 	
-	Escribir "Por ende, gracias al algoritmo los nuevos valores son: para A = ",A , " para B = ",B
+	Si numero_2 = 0 Entonces
+		Escribir "La Divisi—n por cero no es posible"
+	SiNo
+		Escribir "La Divisi—n es: ", numero_1 / numero_2
+	FinSi
 	
 FinAlgoritmo

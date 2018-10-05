@@ -1,5 +1,6 @@
-//Ejercicio 5
-//Diseñar un algoritmo que pida por teclado tres números si el primero es negativo, debe imprimir el producto de los tres y si no lo es, imprimirá la suma
+///Ejercicio 5
+///Dise�ar un algoritmo que pida por teclado tres números si el primero es negativo, debe imprimir el producto de los tres 
+///y si no lo es, imprimirá la suma
 
 Algoritmo instruccion
 	

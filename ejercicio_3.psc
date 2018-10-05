@@ -1,6 +1,6 @@
-//Ejercicio
-//Algoritmo que lea dos números y nos diga cuál de ellos es mayor o bien si son iguales
-//(Recuerda usar la estructura condicional Si y los operadores lógicos).
+///Ejercicio
+///Algoritmo que lea dos números y nos diga cuál de ellos es mayor o bien si son iguales
+///(Recuerda usar la estructura condicional Si y los operadores lógicos).
 
 Algoritmo cual_es_mayor
 	numero_1 <- 0
