@@ -4,7 +4,7 @@
 
 1. Cambia de lugar dos variables
 2. Suma, Resta, Multiplica, Divide dos variables
-    * Calculadora
+  * Calculadora
 3. Devolver el mayor entre dos números
 4. Devolver el mayor entre tres números
 5. Si es negativo calcular producto, si es positivo calcular la suma
