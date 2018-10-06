@@ -12,3 +12,5 @@
 7. Porcentajes de alumnos y alumnas en un curso
 8. Calculo de Descuentos en una tienda
 9. Langosta Ahumada
+10. Vinocultores
+11. Viaje

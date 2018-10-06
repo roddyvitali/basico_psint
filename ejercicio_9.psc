@@ -22,15 +22,17 @@ Algoritmo langosta_ahumada
 		Si num < 200 Entonces
 			Escribir "El valor del plato es $95000"
 			Escribir "Por lo tanto con ",num, " el total a pagar es: $", 95000*num
+		SiNo
+			
+			Si num <= 300 Entonces
+				Escribir "El valor del plato es $85000"
+				Escribir "Por lo tanto con ",num, " el total a pagar es: $", 85000*num
+			SiNo
+				Escribir "El valor del plato es $75000"
+				Escribir "Por lo tanto con ",num, " el total a pagar es: $", 75000*num
+			FinSi
 		FinSi
-		Si num > 200 Y num <= 300 Entonces
-			Escribir "El valor del plato es $85000"
-			Escribir "Por lo tanto con ",num, " el total a pagar es: $", 85000*num
-		FinSi
-		Si num > 300 Entonces
-			Escribir "El valor del plato es $75000"
-			Escribir "Por lo tanto con ",num, " el total a pagar es: $", 75000*num
-		FinSi
+	
 		
 		Escribir "Escribe (y) si quieres terminar (n) o si quieres continuar"
 		Leer opc
