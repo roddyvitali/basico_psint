@@ -4,7 +4,9 @@
 
 Algoritmo cual_es_mayor
 	
-	
+	Escribir "***************************************"
+	Escribir "******** ÀQue Nœmero es Mayor? ********"
+	Escribir "***************************************"
 	numero_1 <- 0
 	numero_2 <- 0
 	numero_3 <- 0

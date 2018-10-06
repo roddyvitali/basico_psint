@@ -7,7 +7,9 @@ Algoritmo sin_titulo
 	
 	opc <- ""
 	num <- 0
-	
+	Escribir "**********************************************"
+	Escribir "** Calculo de potencia de 2 y Ra’z Cuadrada **"
+	Escribir "**********************************************"
 	
 	Repetir
 		Escribir "Dime un nœmero"

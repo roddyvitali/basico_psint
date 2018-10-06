@@ -6,19 +6,23 @@ Algoritmo cual_es_mayor
 	numero_1 <- 0
 	numero_2 <- 0
 	
-	Escribir  "Dime un primer nï¿½mero"
+	Escribir "***************************************"
+	Escribir "******** ÀQue Nœmero es Mayor? ********"
+	Escribir "***************************************"
+	
+	Escribir  "Dime un primer nœmero"
 	Leer numero_1
 	
-	Escribir  "Dime un segundo nï¿½mero"
+	Escribir  "Dime un segundo nœmero"
 	Leer numero_2
 	
 	Si numero_1 = numero_2 Entonces
-		Escribir "Los nï¿½meros son iguales"
+		Escribir "Los nœmeros son iguales"
 	SiNo
 		Si numero_1 > numero_2 Entonces
-			Escribir "El nï¿½mero: ",numero_1, " es mayor que el nï¿½mero: ", numero_2
+			Escribir "El nœmero: ",numero_1, " es mayor que el nœmero: ", numero_2
 		SiNo
-			Escribir "El nï¿½mero: ",numero_2, " es mayor que el nï¿½mero: ", numero_1
+			Escribir "El nœmero: ",numero_2, " es mayor que el nœmero: ", numero_1
 		Fin Si
 	Fin Si
 	

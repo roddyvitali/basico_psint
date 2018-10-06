@@ -6,6 +6,10 @@ Algoritmo cambio_variables
 	B <- 0
 	c <- 0
 	
+	Escribir "***************************************"
+	Escribir "********* Cambio de variables *********"
+	Escribir "***************************************"
+	
 	Escribir "Dinos cual es el valor de A"
 	Leer A
 	
