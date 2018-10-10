@@ -19,3 +19,5 @@
 14. Naufrago
 15. Consultorio DR
 16. Fabrica el Cometa
+17. Bucles
+18. Promedio edad Alumnos
