@@ -21,3 +21,12 @@
 16. Fabrica el Cometa
 17. Bucles
 18. Promedio edad Alumnos
+
+##Ejercicios X
+0. Ahorros
+1. Mayores y Menores
+2. Pares
+
+##Extras
+1. Fibonacci
+2. Prueba
