@@ -3,4 +3,10 @@
 
 Algoritmo pares
 	
+	Para contador = 1 Hasta 100 Con Paso 1 Hacer
+		Si contador % 2 = 0 Entonces
+			Escribir contador
+		FinSi
+	FinPara
+	
 FinAlgoritmo

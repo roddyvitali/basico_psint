@@ -26,6 +26,8 @@
 0. Ahorros
 1. Mayores y Menores
 2. Pares
+3. Sueldo
+4. Velocidades
 
 ##Extras
 1. Fibonacci
