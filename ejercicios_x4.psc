@@ -24,9 +24,17 @@ Algoritmo sin_titulo
 		
 	SiNo
 		mix = vel_a + vel_b
-		Si falta >= mix Entonces
-			punto = (falta/mix)*vel_a + persona_a
-		FinSi
+		punto = ( falta * vel_a / mix ) + persona_a
+		//Si falta >= mix Entonces
+			//punto = (falta/mix)*vel_a + persona_a
+		//SiNo
+			//new_mix = mix % abs(persona_a - persona_b)
+			//res = mix / abs(persona_a - persona_b)
+			//Escribir  new_mix
+			//punto = (falta/new_mix)*(vel_a/res) + persona_a
+			//Escribir trunc(res)
+		//FinSi
+		
 	FinSi
 	
 	Escribir "Se encontraran en el km " punto

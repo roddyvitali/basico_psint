@@ -28,6 +28,8 @@
 2. Pares
 3. Sueldo
 4. Velocidades
+5. Categorías de Ventas
+6. Valor Cuota
 
 ##Extras
 1. Fibonacci
