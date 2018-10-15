@@ -22,7 +22,7 @@
 17. Bucles
 18. Promedio edad Alumnos
 
-##Ejercicios X
+## Ejercicios X
 0. Ahorros
 1. Mayores y Menores
 2. Pares
@@ -31,7 +31,7 @@
 5. Categorías de Ventas
 6. Valor Cuota
 
-##Extras
+## Extras
 1. Fibonacci
 2. Prueba
 3. Super Calculadora
