@@ -2,6 +2,8 @@
 
 ## Indice
 
+### Condicionales
+
 1. Cambia de lugar dos variables
 2. Suma, Resta, Multiplica, Divide dos variables
     * Calculadora
@@ -22,7 +24,7 @@
 17. Bucles
 18. Promedio edad Alumnos
 
-## Ejercicios X
+### Bucles
 0. Ahorros
 1. Mayores y Menores
 2. Pares
@@ -31,7 +33,10 @@
 5. Categorías de Ventas
 6. Valor Cuota
 
-## Extras
+### Extras
 1. Fibonacci
 2. Prueba
 3. Super Calculadora
+
+### Arreglos
+1. Arreglo 1
