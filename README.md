@@ -40,3 +40,7 @@
 
 ### Arreglos
 1. Arreglo 1
+1. Arreglo 2
+1. Sumatoria
+1. Suma Vectores
+1. Capturar y Ordenar
