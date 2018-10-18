@@ -40,7 +40,12 @@
 
 ### Arreglos
 1. Arreglo 1
-1. Arreglo 2
-1. Sumatoria
-1. Suma Vectores
-1. Capturar y Ordenar
+2. Arreglo 2
+3. Sumatoria
+4. Suma Vectores
+5. Capturar y Ordenar
+6. Azar
+7. Contador
+8. Comparar
+9. Trabajos
+10. Notas

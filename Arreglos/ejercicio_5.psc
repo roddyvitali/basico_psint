@@ -7,47 +7,42 @@
 
 Algoritmo Ejercicio5
 	
-	Definir i, n, num_alumnos, promedios, aux_average, contador Como Entero;
-	Definir nombres, aux_name Como Caracter;
+	Definir i, n, contador Como Entero;
+	Definir averages, aux_average Como Real;
+	Definir names, aux_name Como Caracter;
 	Escribir "Dime cuantos alumnos son: ";
 	Leer n;
 	
-	Dimension nombres[n];
-	Dimension promedios[n];
+	Dimension names[n];
+	Dimension averages[n];
 	Para i=0 Hasta n-1 Con Paso 1 Hacer
-		
 		Escribir "Dime el nombre del alumno: " i + 1;
-		Leer nombres[i];
+		Leer names[i];
 		
 		Escribir "Dime cu‡l es el promedio del alumno: " i + 1;
-		Leer promedios[i];
+		Leer averages[i];
 	FinPara
 	
 	
 	
-	Para i=0 Hasta n-1 Con Paso 1 Hacer
-		Para contador = 0 Hasta n-1 Con Paso 1 Hacer
-			Si contador != n-1 Entonces
-				Si promedios[contador+1] > promedios[contador] Entonces
-					aux_average = promedios[contador];
-					promedios[contador] = promedios[contador+1];
-					promedios[contador+1] = aux_average;
-					
-					aux_name = nombres[contador];
-					nombres[contador] = nombres[contador+1];
-					nombres[contador+1] = aux_name;
-				FinSi
+	Para i=0 Hasta n-2 Con Paso 1 Hacer
+		Para contador = 0 Hasta n-2 Con Paso 1 Hacer
+			Si averages[contador+1] > averages[contador] Entonces
+				aux_average = averages[contador];
+				averages[contador] = averages[contador+1];
+				averages[contador+1] = aux_average;
+				
+				aux_name = names[contador];
+				names[contador] = names[contador+1];
+				names[contador+1] = aux_name;
 			FinSi
-			//Escribir promedios[contador];
 		Fin Para
 	Fin Para
 	Escribir "Procesando el Listado";
 	
 	Para i=0 Hasta n-1 Con Paso 1 Hacer
-		
-		Escribir "El alumno: " nombres[i];
-		Escribir "Tiene promedio: " promedios[i];
-
+		Escribir "El alumno: " names[i];
+		Escribir "Tiene promedio: " averages[i];
 	FinPara
 	
 FinAlgoritmo
